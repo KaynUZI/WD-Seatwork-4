@@ -8,7 +8,7 @@ body {
     justify-content: center;
     height: 100vh;
     background-color: #c6e6c0;
-    background-image: url('/assets/img/bbcakes.png');
+    background-image: url('../assets/img/bbcakes.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
