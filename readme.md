@@ -145,4 +145,7 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Google | Picture, Logos, images | Google.com |
+| Pinterest | Picture, Logos, images | pinterest.com |
+| Bootstrap | stylesheet | [Google.com](https://getbootstrap.com) |
+| Deployment Link | Published site link | [Google.com](https://kaynuzi.github.io/WD-Seatwork-4/index.html) |
