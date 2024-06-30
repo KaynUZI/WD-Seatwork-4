@@ -1,0 +1,194 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E7DFD8;
+}
+
+section {
+    padding: 20px;
+}
+
+.champ {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 40px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 100vh; /* Full viewport height */
+}
+
+/* Specific styles for each champ section */
+.lux {
+    background-image: url('../img/lux\ url.webp'); /* Replace with actual path to your background image */
+}
+
+.seraphine {
+    background-image: url('../img/Picture\ 2.jpg'); /* Replace with actual path to your background image */
+}
+
+.sona {
+    background-image: url('../img/picture\ 3.jpg'); /* Replace with actual path to your background image */
+}
+
+.ahri {
+    background-image: url('../img/picture\ 4.webp'); /* Replace with actual path to your background image */
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: to make the header stand out */
+}
+
+header .logo {
+    max-width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+}
+
+.choices a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.left, .right {
+    flex: 1;
+    margin: 10px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.897);
+    padding: 2rem;
+    flex: 1;
+    max-width: 45%;
+}
+
+.left h1 {
+    font-weight: 400;
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.left p {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.left button {
+    font-weight: 400;
+    border-radius: 5%;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    align-self: flex-start;
+}
+
+.left button:hover {
+    background-color: #70c2f8;
+    color: rgb(0, 0, 0);
+    transform: scale(1.1);
+}
+
+.right {
+    background-color: transparent;
+    flex: 1;
+    max-width: 70%;
+    display: flex;
+    justify-content: center center;
+}
+
+.right img {
+    width: 100%;
+    height: auto;
+    box-shadow: 10px 10px 10px rgba(2, 110, 172, 0.452);
+    height: 600px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.features {
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    padding: 20px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: to make the footer stand out */
+    width: 100%;
+}
+
+.footer .logo {
+    max-width: 50px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Basic styling for the logo */
+.logo {
+    width: 100px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Optional: Add responsive behavior */
+@media (max-width: 600px) {
+    .logo {
+        width: 80px; /* Adjust width for smaller screens */
+    }
+}
+
+@media (max-width: 400px) {
+    .logo {
+        width: 60px; /* Adjust width for even smaller screens */
+    }
+}
