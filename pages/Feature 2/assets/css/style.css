@@ -219,3 +219,141 @@ body {
     text-align: center;
     padding: 2rem;
 }
+
+.feature-3 {
+    width: 40vw;
+    min-height: 100vh;
+    background-image: url('../img/Kanye 3.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+.first-section {
+    padding: 200px 0;
+    background-image:
+    linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+    ),
+    url('../img/Kanye\ 1.jpg');
+    background-color: rgba(0, 0, 0, 0.136);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+}
+
+.first-section .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-section .text {
+    flex: 1;
+    padding: 0 20px;
+    animation: fadeInLeft 1s ease forwards;
+    animation-delay: 1s;
+}
+
+.first-section .text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.first-section .text p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.first-section .image {
+    flex: 1;
+    text-align: center;
+}
+
+.first-section .image img {
+    max-width: 70%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.first-section .image img:hover {
+    transform: scale(1.1);
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.third-section {
+    padding: 150px 0;
+    background-image:
+    linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+    ),
+    url('../img/Kanye\ 2.jpg');
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+}
+
+.third-section .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-section .image {
+    flex: 1;
+    text-align: center;
+}
+
+.third-section .image img {
+    max-width: 70%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.third-section .image img:hover {
+    transform: scale(1.1);
+}
+
+.third-section .text {
+    flex: 1;
+    padding: 0 20px;
+    animation: fadeInRight 1s ease forwards;
+    animation-delay: 1s;
+}
+
+.third-section .text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.third-section .text p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
